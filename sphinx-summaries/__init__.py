@@ -23,7 +23,7 @@ def setup(app):
     app.connect('doctree-resolved', generate_summary)
     app.connect('build-finished', dump)
     return {
-        'version': '0.0.3',
+        'version': '0.0.4',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
