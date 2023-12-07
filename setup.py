@@ -6,7 +6,7 @@ def install_requires():
 
 setup(
     name='sphinx-summaries',
-    version='0.0.2',
+    version='0.0.3',
     packages=['sphinx-summaries'],
     install_requires=install_requires()
 )
