@@ -5,15 +5,7 @@ def install_requires():
         return [line.strip() for line in f.readlines()]
 
 setup(
-    name='extotype',
-    version='0.7',
-    packages=find_packages(),
-    install_requires=install_requires(),
-    classifiers=[],
-    package_data={
-        'extotype': [
-            'static/extotype.js',
-            'templates/search.html',
-        ]
-    },
+    name='sphinx-summaries',
+    version='0.0.1',
+    install_requires=install_requires()
 )
